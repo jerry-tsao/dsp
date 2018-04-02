@@ -20,17 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > 'pwd'  show current working directory path
-> > 'mkdir'  creating a directory
-> > 'rm -r'  deleting a directory
-> > 'touch'  create a file
-> > 'rm'  deleting a file
-> > 'mv'  renaming a file
-> > 'ls -a'  listing hidden files
-> > 'cp'  copying a file from one directory to another
-> > 'cd'  switch to the specified directory
-> > 'ls -l'  list files in long format
-> > 'mv'  move a file to a different directory
+> > `pwd`  show current working directory path  
+> > `mkdir`  creating a directory  
+> > `rm -r`  deleting a directory  
+> > `touch`  create a file  
+> > `rm`  deleting a file  
+> > `mv`  renaming a file  
+> > `ls -a`  listing hidden files  
+> > `cp`  copying a file from one directory to another  
+> > `cd`  switch to the specified directory  
+> > `ls -l`  list files in long format  
+> > `mv`  move a file to a different directory  
 
 ---
 
@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls'  list files in directory
-> > 'ls -a'  list all files in directory, including those that start with a dot (hidden)
-> > 'ls -l'  list files in long format
-> > 'ls -lh'  list files in long format, with file sizes displayed using human-friendly units
-> > 'ls -lah'  list all files in long format, with file sizes displayed using human-friendly units
-> > 'ls -t'  list files sorted by timestamp (newest first)
-> > 'ls -Glp'  list files in long format, puts / after directory names, and colorizes by file type
+> > `ls`  list files in directory  
+> > `ls -a`  list all files in directory, including those that start with a dot (hidden)  
+> > `ls -l`  list files in long format  
+> > `ls -lh`  list files in long format, with file sizes displayed using human-friendly units  
+> > `ls -lah`  list all files in long format, with file sizes displayed using human-friendly units  
+> > `ls -t`  list files sorted by timestamp (newest first)  
+> > `ls -Glp`  list files in long format, puts / after directory names, and colorizes by file type  
 
 ---
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 'ls -r'  list files in reverse order
-> > 'ls -R'  list files, including those in subdirectories
-> > 'ls -u'  list files, sorted by access time
-> > 'ls -d'  lists only directories
-> > 'ls -m'  lists files, separated by commas
+> > `ls -r`  list files in reverse order  
+> > `ls -R`  list files, including those in subdirectories  
+> > `ls -u`  list files, sorted by access time  
+> > `ls -d`  lists only directories  
+> > `ls -m`  lists files, separated by commas  
 
 ---
 
@@ -71,8 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' executes commands based on the standard input.
-> > For example, to find .txt files which contain the string "hello", you would use 'find -name "*.txt" | xargs grep "hello"'.
+> > `xargs` executes commands based on the standard input.  
+> > For example, to find .txt files which contain the string "hello", you would use `find -name "*.txt" | xargs grep "hello"`.
 
- 
+
 
