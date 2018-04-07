@@ -13,6 +13,6 @@ thinkplot.Show(xlabel='numbers', ylabel='PMF')
 ```
 cdf = thinkstats2.Cdf(one_thousand_numbers)
 thinkplot.Cdf(cdf)
-thinkplot.Show(xlabel='numbers',ylabel='PMF')
+thinkplot.Show(xlabel='numbers',ylabel='CDF')
 ```
 ![CDF Plot](4-2-plot2.png)
