@@ -109,21 +109,25 @@ P(fraternal twins & twin brothers) = P(fraternal twins) * P(brothers | fraternal
                                    = 1/500
 ```
 
-From here, we can plug in the probabilities into the initial equation:
+Now we can plug in the probabilities into the initial equation:
 ```
 P(identical twins | twin brothers) = (1/600) / [(1/600) + (1/500)]
                                    = (1/600) / (11/3000)
 P(identical twins | twin brothers) = 5/11
 ```
 
-The answer is that the probability that Elvis was an identical twin is **5/11**.
+The probability that Elvis was an identical twin is **5/11**.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**RESPONSE:**
+
+Frequentist statistics and Bayesian statistics are two different approaches to probability.
+*  Frequentist statistics explains the probability that a specific outcome will be attained if a procedure is repeated many times in the same way, under the same conditions.
+*  Bayesian statistics, on the other hand, explains the belief that a specific outcome will be attained based on prior knowledge of specific conditions. It predicts the likelihood that certain outcomes of one-time events and other non-repeatable events will occur.
 
 ---
 
